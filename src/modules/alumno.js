@@ -1,10 +1,10 @@
-export default class alumno{
+export default class Alumno{
     constructor(username, dni){
         this.username = username;
         this.dni = dni;
     }
 
-    saludar(username){
-        console.log(`Hola ${username}. Tu dni es: ${dni}`);
+    saludar(){
+        console.log(`Hola ${this.username}. Tu dni es: ${this.dni}`);
     }
 }
