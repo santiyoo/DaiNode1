@@ -1,0 +1,21 @@
+{
+  "name": "dainode1",
+  "version": "1.0.0",
+  "description": "Primer test en node",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santiyoo/DaiNode1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santiyoo/DaiNode1/issues"
+  },
+  "homepage": "https://github.com/santiyoo/DaiNode1#readme"
+}
