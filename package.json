@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/santiyoo/DaiNode1/issues"
   },
-  "homepage": "https://github.com/santiyoo/DaiNode1#readme"
+  "homepage": "https://github.com/santiyoo/DaiNode1#readme",
+  "dependencies": {
+    "countries-list": "^2.6.1"
+  }
 }

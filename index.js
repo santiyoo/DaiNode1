@@ -1,6 +1,12 @@
 import sumar,{PI, dividir, potencia} from './src/modules/matematica.js'
 import Alumno from './src/modules/alumno.js'
 import {cambiarAdentroDelArchivo} from './src/modules/fs.js'
+import x from 'countries-list'
+import devolver from './src/modules/myUrl.js';
+
+const myURL = new URL(' http://www.ort.edu.ar:8080/alumnos/index.htm?curso=2022&mes=mayo');
+
+console.log(devolver(myURL));
 
 let nombre = "Santino";
 let edad = 16;
@@ -16,3 +22,5 @@ const alumno = new Alumno("Santino", 11111111);
 alumno.saludar();
 
 cambiarAdentroDelArchivo("Palitoooooooo", "./src/modules/data.txt");
+
+console.log(x.getEmojiFlag('BR'));
