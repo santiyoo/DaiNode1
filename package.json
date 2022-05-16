@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/santiyoo/DaiNode1#readme",
   "dependencies": {
-    "countries-list": "^2.6.1"
+    "countries-list": "^2.6.1",
+    "currency-map-country": "^1.0.12",
+    "valid-url": "^1.0.9"
   }
 }
