@@ -1,6 +1,6 @@
 import {isUri} from 'valid-url';
 
-let validUrl='http://www.ort.edu.ar:8080/alumnos/index.htm?curso=2022&mes=mayo';
+let validUrl='hola.com';
 
 export default function devolver(a){
     const host = a.host;
@@ -14,8 +14,8 @@ export default function devolver(a){
     return datos
 }
 
-export function validarUrl(a){
-    if (isUri(a)){
+export function validarUrl(){
+    if (isUri(validUrl)){
         console.log('Es una URL');
     } 
     else {
