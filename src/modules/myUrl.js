@@ -1,6 +1,6 @@
 import {isUri} from 'valid-url';
 
-let validUrl= "hola.com";
+let validUrl= "chau.com";
 
 export default function devolver(a){
     const host = a.host;

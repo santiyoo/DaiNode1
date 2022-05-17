@@ -11,9 +11,9 @@ let edad = 16;
 console.log("--------------------Ejercicio 1--------------------")
 console.log(`Hola me llamo ${nombre} y tengo ${edad} años`);
 console.log("--------------------Ejercicio 2--------------------")
-console.log(`La potencia de 2 es: ${sumar(10, 5)}`);
+console.log(`10 + 5 es: ${sumar(10, 5)}`);
 console.log(`El valor del numero PI es: ${PI}`);
-console.log(`La potencia de 2 es: ${dividir(20, 2)}`);
+console.log(`20 / 2 es: ${dividir(20, 2)}`);
 console.log(`La potencia de 2 es: ${potencia(2)}`);
 
 console.log("--------------------Ejercicio 3--------------------")
