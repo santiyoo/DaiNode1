@@ -1,6 +1,6 @@
 import {isUri} from 'valid-url';
 
-let validUrl='hola.com';
+let validUrl= "hola.com";
 
 export default function devolver(a){
     const host = a.host;
@@ -17,12 +17,12 @@ export default function devolver(a){
 export function validarUrl(){
     if (isUri(validUrl)){
         console.log('Es una URL');
+        return true;
     } 
     else {
         console.log('Error, no es una URL');
+        return false
     }
 }
-
-
 
 

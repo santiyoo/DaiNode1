@@ -26,6 +26,7 @@ cambiarAdentroDelArchivo("Palitoooooooo", "./src/modules/data.txt");
 console.log("--------------------Ejercicio 5--------------------")
 const myURL = new URL('http://www.ort.edu.ar:8080/alumnos/index.htm?curso=2022&mes=mayo');
 console.log(devolver(myURL));
+// devolver(myURL)
 console.log("--------------------Ejercicio 6--------------------")
 console.log(validarUrl());
 
